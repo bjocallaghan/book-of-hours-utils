@@ -1,0 +1,20 @@
+{
+ :deps {}
+ :paths ["src"]
+
+ :aliases
+ {
+  ;; :dev {:extra-deps {io.github.clojure/data.alpha.replicant-server {:git/tag "v2023.05.02.01" :git/sha "947d8a8"}}}}
+  :middleware/nrepl-morse
+  {:main-opts ["-m" "nrepl.cmdline"
+               "-i"
+               "--middleware" "[net.bjoc.book-of-hours.nrepl-morse/wrap-morse,cider.nrepl/cider-middleware]"]}
+  
+  :test {:extra-paths ["test"]
+         :extra-deps {io.github.cognitect-labs/test-runner
+                      {:git/url "https://github.com/cognitect-labs/test-runner.git"
+                       :sha "9e35c979860c75555adaff7600070c60004a0f44"}}
+         :main-opts ["-m" "cognitect.test-runner"]
+         :exec-fn cognitect.test-runner.api/test}
+  }
+ }
