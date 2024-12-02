@@ -50,6 +50,9 @@
 (defmem gossip grail 1 rose 2)
 (defmem cheerful-ditty heart 2 sky)
 (defmem secret-threshold knock 2 rose)
+(defmem wistful-air rose 2 sky 2)
+(defmem nameday-riddle knock 2 moth 3)
+(defmem enduring-reflection heart knock rose 3)
 
 ;;;
 

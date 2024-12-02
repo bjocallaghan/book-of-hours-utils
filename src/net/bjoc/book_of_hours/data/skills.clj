@@ -49,7 +49,7 @@
 (defskill l&c "Lockworks & Clockworks" knock sky ithastry skolekosophy)
 (defskill prelim "Preliminal Meter" knock rose illumination ithastry)
 (defskill aural "Aural Contemplations" lantern edge illumination nyctodromy)
-(defskill strings "Strings & Songs" nil nil nil nil)
+(defskill strings "Strings & Songs" sky heart birdsong nyctodromy)
 (defskill spices "Spices & Savours" nectar forge ithastry nil)
 (defskill sky "Sky Stories" sky rose birdsong horomachistry)
 (defskill t&l "Transformations & Liberations" forge moth illumination ithastry)
@@ -61,6 +61,16 @@
 (defskill leaves "Leaves & Thorns" nectar grail birdsong bosk)
 (defskill h&i "Horns & Ivories" scale knock bosk skolekosophy)
 (defskill limiae "Sacra Limiae" moth sky horomachistry hushery)
+(defskill apple "Lesson: Applebright Euphonies" sky grail bosk illumination)
+(defskill h&h "Hill & Hollow" moon scale nyctodromy preservation)
+(defskill d&w "Door & Wall" knock forge horomachistry nyctodromy)
+(defskill a&l "Anbary & Lapidary" sky forge horomachistry ithastry)
+(defskill signs "The Great Signs and the Great Scars" grail knock horomachistry hushery)
+(defskill tridesma "Tridesma Hiera" moon grail bosk preservation)
+(defskill scar "Disciplines of the Scar" edge lantern hushery illumination)
+(defskill s&v "Serpents & Venoms" scale moon hushery skolekosophy)
+(defskill revelation "Inks of Revelation" lantern moth hushery ithastry)
+(defskill s&b "Stitching & Binding" sky heart ithastry preservation)
 
 ;;;
 
